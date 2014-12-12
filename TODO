@@ -1,0 +1,5 @@
+- add usage to readme
+- test with lots of files, for debugging
+- add option to work on every file on folder, and subfolders,  and filter by extension.
+- avoid re-downloading if "file.srt" exists.
+- take care of login errors
