@@ -3,8 +3,9 @@ __author__ = 'will'
 import os
 import legendas_downloader
 import subdb_downloader
+import periscope_caller
 
-DIRECTORIES = ["/home/will/PycharmProjects/legendastv2", "/path/to/your/video/files2"]
+DIRECTORIES = ["/home/mari/complete", "/path/to/your/video/files2"]
 
 MOVIE_EXTS = [".avi",".mp4",".mkv",".mpg",".mpeg",".mov",".rm",".vob",".wmv",".flv",".3gp"]
 SUBS_EXTS = ['.srt', '.sub']
@@ -12,8 +13,7 @@ SUBS_EXTS = ['.srt', '.sub']
 downloaders = [legendas_downloader,
                subdb_downloader]
 
-languages = ['pt',
-             'en']
+languages = ['en',]
 
 def get_movie_files(rootdir, with_subs=False):
     filelist = []

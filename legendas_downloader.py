@@ -104,7 +104,8 @@ def try_download(name, languages):
     try:
         find_subtitle(name)
         return True
-    except:
+    except Exception, e:
+        print Exception, e
         return False
 
 if __name__ == "__main__":
